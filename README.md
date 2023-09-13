@@ -11,7 +11,7 @@ for the return directive in `default.conf`.
 
 The image is available on Github Packages.
 
-# docker-compose.yml
+### docker-compose.yml
 ```
 version: '3.1'
 
