@@ -11,6 +11,15 @@ for the return directive in `default.conf`.
 
 The image is available on Github Packages.
 
-```shell
-docker run 
+```
+version: '3.1'
+
+services:
+  nginx-echo:
+    image: ghcr.io/leviscop/nginx-echo:main
+    container_name: nginx-echo
+    hostname: your.domain.tld
+    restart: unless-stopped
+    ports:
+      - 80:80
 ```
