@@ -7,23 +7,10 @@ debugging.
 If you wish to extend the information returned by nginx you can extend the text
 for the return directive in `default.conf`.
 
-## Build
+## Run
 
-The image on Docker Hub is automatically built by a merge to master, for local
-builds you can use
+The image is available on Github Packages.
 
 ```shell
-docker build -t adfinissygroup/nginx-echo .
+docker run 
 ```
-
-## License
-
-[MIT](https://github.com/adfinis-sygroup/nginx-echo/blob/master/LICENSE)
-
-## Author Information
-
-nginx-echo was written by:
-
-  - Adfinis SyGroup AG | [Website](https://www.adfinis-sygroup.ch/) |
-    [Twitter](https://twitter.com/adfinissygroup) |
-    [GitHub](https://github.com/adfinis-sygroup)
